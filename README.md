@@ -39,5 +39,5 @@ And you’re done!
 ## Authors
 
 * Shadia Ali 
-* Maksym Paschenko
+* Maksym Pashchenko
 
