@@ -19,11 +19,11 @@ $ git init
 
 # Clone this repository
 
-$ git clone https://github.com/smalfoy/Ali_S_Wisniewski_S_AV_App.git
+$ git clone https://github.com/smalfoy/Ali_S_Pashchenko_M_AV_App.git
 
 # Go into the repository
 
-$ cd Ali_S_Wisniewski_S_AV_App
+$ cd Ali_S_Pashchenko_M_AV_App.git
 
 ```
 
