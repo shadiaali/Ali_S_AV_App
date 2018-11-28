@@ -80,12 +80,11 @@ body {
 	width:100%;
 }
 
-.footer{
+.footer-container{
 	background-color:#002c3c;
 	color:rgba(255,255,255, 0.5);
 	text-align:left;
 	font-size:1.3em;
-	margin-bottom:-2em;
 }
 
 
@@ -105,7 +104,7 @@ li {
   color:#fff;
   list-style:none;
   position: relative;
-  padding-left:50px;
+  padding-left:10px;
   font-size:32px;
 	line-height:40px;
 }
@@ -124,14 +123,8 @@ li.two:before {
 }
 
 li:hover:before {
-  color:#efe270;
+  color:$menu-lines-color;
 }
-
-.footer{
-	background-color:#002c3c;
-	height:8vh;
-}
-
 
 .topbar-center-logo {
   background: $topbar-center-logo-bg;
@@ -162,7 +155,6 @@ li:hover:before {
 }
 
 
-
 //menu style
 
 .menu-hover-lines {
@@ -191,7 +183,7 @@ li:hover:before {
     position: absolute;
     content: '';
     transition: $menu-hover-lines-transition;
-    background-color: #efe270;
+    background-color: $menu-lines-color;
     width: 0;
   }
 
@@ -219,7 +211,11 @@ li:hover:before {
   }
 }
 
+//testing
+.main-test{
 
+	
+}
 
 
 //queries
@@ -227,38 +223,8 @@ li:hover:before {
 //small
 @media screen and (max-width: 39.9375em) {
 
- .bg{
-		background-image: url('/images/desk-bg.png');
- display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    box-sizing: border-box;
-    min-height: 280px;
-    padding-bottom: 25px;
-		 height:95vh;
-		 background-size:cover;
-		 overflow:hidden;}
 
 
-.about-container{
-	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"), linear-gradient(to bottom, #002c3c, #0e607c, #1b6d88, #277c94, #348a9f);
-height:100vh;}
-
-.about{
-	font-size:3em;
-
-	font-family: Century Gothic;
-text-align:center;
-color:$white;
-letter-spacing:5px;}
 
 }//end small
 
@@ -277,14 +243,6 @@ letter-spacing:5px;}
 
 //large
 @media screen and (min-width: 64em) {
-
-	 .bg{
-	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"), url('../images/desktop.png');
-
-   background-position: center top;
-     overflow-x: hidden;
-		 height:90vh;}
-
 
 
 
