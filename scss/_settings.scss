@@ -63,10 +63,22 @@
 @import 'util/util';
 
 //My variables
-$topbar-center-logo-bg:#002c3c;
+$topbar-center-logo-bg:#FFFFFF;
 $menu-hover-lines-transition: all 0.35s ease;
-$menu-hover-lines-border-width: 1px;
+$menu-hover-lines-border-width: 2px;
 $menu-lines-color: #24c2cb;
+$tomato-orange: #ff6600;
+$crimson-red: #bd0048;
+$green-yellow: #e0f30e;
+$sea-green:#04a47a;
+$turquoise: #24c2cb;
+$roku-purple: #662d91;
+$sky-blue: #c7f6ff;
+$medium-purple: #6e389a;
+$medium-blue: #0FACFF;
+$periwinkle: #5C69FF;
+$baby-blue: #64C4E8;
+$pink: #FFD9E6;
 
 
 
@@ -78,11 +90,11 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #6E389A,
-  secondary: #C7F6FF,
-  success: #FF6600,
-  warning: #BD0048,
-  alert: #E0F30E,
+primary: #1779ba,
+secondary: #767676,
+success: #3adb76,
+warning: #ffae00,
+alert: #cc4b37,
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;

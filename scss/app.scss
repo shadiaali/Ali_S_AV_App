@@ -47,7 +47,7 @@
 @include foundation-dropdown-menu;
 
 // Layout components
-@include foundation-off-canvas;
+//@include foundation-off-canvas;
 @include foundation-reveal;
 @include foundation-sticky;
 @include foundation-title-bar;
@@ -65,6 +65,8 @@
 
 //My Css
 
+
+
 body {
 	background-color: #e7f9fb;}
 
@@ -81,8 +83,8 @@ body {
 }
 
 .footer-container{
-	background-color:#002c3c;
-	color:rgba(255,255,255, 0.5);
+	background-color:$white;
+	color:$roku-purple;
 	text-align:left;
 	font-size:1.3em;
 }
@@ -101,7 +103,7 @@ ul li{
 
 
 li {
-  color:#fff;
+  color:$black;
   list-style:none;
   position: relative;
   padding-left:10px;
@@ -133,7 +135,7 @@ li:hover:before {
     background: $topbar-center-logo-bg;
 
     a {
-      color: $white;
+      color: $roku-purple;
     }
   }
 }
@@ -157,6 +159,10 @@ li:hover:before {
 
 //menu style
 
+.topbar-center-logo .menu a {
+    color: $medium-blue;
+}
+
 .menu-hover-lines {
   text-align: center;
   letter-spacing: 1px;
@@ -164,7 +170,7 @@ li:hover:before {
 
   li a {
     padding: 0.75rem 0;
-    color: rgba($white, 0.7);
+    color: rgba($turquoise, 0.7);
     position: relative;
     margin-left: 1rem;
   }
@@ -199,7 +205,7 @@ li:hover:before {
 
   a:hover,
   li.active > a {
-    color: $white;
+    color: $roku-purple;
     transition: $menu-hover-lines-transition;
   }
 
@@ -214,8 +220,23 @@ li:hover:before {
 //testing
 .main-test{
 
-	
+
 }
+
+.header-container{
+	height:30vh;
+
+}
+
+.main-container{
+	height:80vh;
+	background-color: $medium-blue;
+}
+
+
+button {
+    background: $roku-purple;
+	}
 
 
 //queries
