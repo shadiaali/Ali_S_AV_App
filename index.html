@@ -52,8 +52,8 @@
 	<div class="auto cell"></div>
   			<div class="small-5 cell grid-padding-x">
   <section class="grid-y grid-frame">
-  				<div class="auto cell"></div>
-  	<div class="small-4 cell"><img src="images/flashback-logo.svg" alt="roku-header-img"></div>
+  				<div class="small-1 cell"></div>
+  	<div class="small-4 cell"><img src="images/flashback-logo.svg" alt="roku-header-img" style="margin-bottom:30px;"></div>
 
   				<div class="auto cell"></div>
   				</section></div>
@@ -65,12 +65,22 @@
 <!--start main container-->
   		<div class="main-container grid-x" id="app"><h2 class="hidden">App container</h2>
 
-<div class="small-12 cell main-test grid-padding-x">
-<h2>{{ mainmessage }}</h2>
+<div class="small-12 cell main-message grid-padding-x">
+<h1>{{ mainmessage }}</h1>
 
-
-       <h3 v-for="video in videodata">{{ video.video_name }}</h3>
 </div>
+
+ <div style="margin-left:30px;" class="video-list small-12 medium-12 large-5 cell" v-for="video in videodata"><h3>{{ video.video_name }}</h3> <b>{{ video.video_author }}</b> <br>
+<!-- <img :src="'images/' + video.video_cover_image" alt="" style="height:50px; width:30px;"><br> -->
+
+
+
+<iframe id="ytplayer" type="text/html" width="360" height="215"
+  :src="video.video_url"
+  frameborder="0"></iframe><br>
+<hr>
+
+ </div>
 
 
   	 </div>
