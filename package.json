@@ -1,35 +1,20 @@
 {
-  "name": "ali_s_autoapp",
+  "name": "Ali_S_Roku",
   "version": "1.0.0",
-  "description": "Roku Flashback app assignment.",
-  "main": "gulpfile.js",
+  "description": "Admin login system with vue front end",
+  "main": "index.js",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp sass"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shadia Ali <shadia@shadiaali.ca>",
+  "author": "TVR",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/smalfoy/Ali_S_Av_App/issues"
-
-  },
   "dependencies": {
-    "foundation-sites": "^6.5.1",
-    "jquery": ">=3.0.0",
-    "motion-ui": "~2.0.0",
-    "what-input": "^5.1.2"
+    "bcrypt": "^3.0.3"
   },
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
-    "browser-sync": "^2.18.13",
     "gulp": "^4.0.0",
-    "gulp-load-plugins": "^1.1.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smalfoy/Ali_S_AV_App.git"
-  },
-  "private": true
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  }
 }
