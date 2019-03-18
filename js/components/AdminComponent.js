@@ -1,22 +1,24 @@
 export default {
     template: `
+
     <div id="App"><h1>Admin Dashboard</h1>
-    <h3>Welcome!</h3>
-    <p> {{ message }}</p>
+    <h2>Welcome</h2>
+
     <nav>
-        <ul>
-            <li><a href="#">Create User</a></li>
-            <li><a href="#">Edit User</a></li>
-            <li><a href="#">Delete User</a></li>
-            <li><a href="">Sign Out</a></li>
-            <!-- scripts/caller.php?caller_id=logout -->
-        </ul>
-    </nav></div>
+  <ul>
+    <li><a href="#/create">Create User</a></li>
+    <li><a href="admin_edituser.php">Edit User</a></li>
+    <li><a href="admin_deleteuser.php">Delete User</a></li>
+    <li><a href="scripts/caller.php?caller_id=logout">Sign Out</a></li>
+  </ul>
+
+</nav>
+</div>
     `,
 
     data() {
         return {
-            message: "This is the admin dashboard page"
+            message: "Welcome to your Dashboard"
         }
     }
 }

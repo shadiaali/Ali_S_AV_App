@@ -39,6 +39,13 @@ npm install
 
 Finally, run `gulp` to run the Sass compiler. Don't forget to import to a new database called `db_av_app`.
 
+
+## Future Development
+
+* Figure out how to integrate Pan's Back-end with Vue
+* Make use of [vue-router-permissions](https://www.npmjs.com/package/vue-router-permissions) plugin to protect routes based on user permissions
+
+
 ## Built With
 
 * [Gulp](https://gulpjs.com/)

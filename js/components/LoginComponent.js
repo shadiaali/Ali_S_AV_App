@@ -8,13 +8,13 @@ export default {
                         <div class="offset-md-4 col-md-4 my-2">
                             <p class="form-titles">Username:</p>
                             <label class="sr-only" for="inlineFormInputName">Name</label>
-                            <input v-model="input.username" type="text" class="form-control" id="formUsername" required>
+                            <input v-model="input.username" type="text" class="form-control" id="formUsername" placeholder="user1" required>
                         </div>
 
                         <div class="offset-md-4 col-md-4 my-2">
                             <p class="form-titles">Password:</p>
                             <label class="sr-only" for="inlineFormPassword">Name</label>
-                            <input v-model="input.password" type="password" class="form-control" id="formPassword" required>
+                            <input v-model="input.password" type="password" class="form-control" id="formPassword" placeholder="password" required>
                         </div>
 
                         <div class="offset-md-7 my-2">
