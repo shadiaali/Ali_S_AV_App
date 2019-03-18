@@ -1,7 +1,7 @@
 # Audio/Video App
 
- An audio / video app built using queries and database assets  A user should be able to log in, filter and select a movie, tv show or audio based on user profile (adult or kids). An API will be built that will let a user comment on the selection, rate it, and share via social media. 
- 
+ An audio / video app built using queries and database assets.  A user is able to log in, filter and select a movie, tv show or audio to stream based on decade/era.  
+
 ## Getting Started
 
 ### Prerequisites
@@ -19,7 +19,7 @@ $ git init
 
 # Clone this repository
 
-$ git clone https://github.com/smalfoy/Ali_S_AV_App.git
+$ git clone https://github.com/shadiaali/Ali_S_AV_App.git
 
 # Go into the repository
 
@@ -34,17 +34,16 @@ cd Ali_S_AV_App
 npm install
 ```
 
-Finally, run `npm start` to run the Sass compiler. The site will not show properly unless these steps are followed. In development mode, the portfolio needs to be run on a live server (MAMP/WAMP) in order for the database and json to work.
+Finally, run `gulp` to run the Sass compiler. Don't forget to import to a new database called `db_av_app`.
 
 ## Built With
 
-* [Gulp](https://gulpjs.com/) 
+* [Gulp](https://gulpjs.com/)
 * [SASS](https://sass-lang.com/)
 * [Vue.js](https://vuejs.org/)
+* [Bootstrap](https://bootstrap.com/)
 * [Git](https://git-scm.com/)
 
 ## Authors
 
-* Shadia Ali 
-
-
+* Shadia Ali
