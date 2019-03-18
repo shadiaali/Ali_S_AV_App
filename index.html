@@ -27,12 +27,9 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
     <ul>
-      <li v-if="authenticated" class="nav-item nav-link"><router-link to="/userhome" class="nav_link">Home</router-link></li>
-       <li v-if="authenticated" class="nav-item nav-link"><router-link to="/admin" class="nav_link">Admin</router-link></li>
-        <li v-if="authenticated" class="nav-item nav-link"> <router-link to="/users" class="nav_link">Profile Selection</router-link></li>
-         <li v-if="authenticated" class="nav-item nav-link"><router-link to="/parents" class="nav_link">Parents</router-link></li>
-          <li v-if="authenticated" class="nav-item nav-link"> <router-link to="/kids" class="nav_link">Kids</router-link></li>
-          <li class="nav-item"  v-if="authenticated" v-on:click="logout()">Logout</li>
+    &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp<li v-if="authenticated" class="nav-item nav-link"><router-link to="/userhome" class="nav_link">Media Home</router-link></li> &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp
+        <li v-if="authenticated" class="nav-item nav-link"> <router-link to="/users" class="nav_link">Profile Selection</router-link></li> &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp
+          <li class="nav-item"  v-if="authenticated" v-on:click="logout()">Logout</li> &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp
           </ul>
         </div>
       </div>
@@ -61,15 +58,6 @@
 
 	</main>
 
-	<footer>
-			<ul class="socNav">
-			<li v-for="item in socItems">
-				<a :href="item.link" target="_blank" :id="item.id">
-					<i :class="item.class"></i>
-				</a>
-			</li>
-		</ul>
-	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

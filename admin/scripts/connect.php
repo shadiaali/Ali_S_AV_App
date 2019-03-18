@@ -1,7 +1,7 @@
-<?php 
-    $db_dsn = array( 
+<?php
+    $db_dsn = array(
         'host' => 'localhost',
-        'dbname' => 'db_movies',
+        'dbname' => 'db_av_app',
         'charset' => 'utf8'
     );
 
@@ -18,4 +18,3 @@
         echo 'Connection Error:'.$exception->getMessage();
         exit();
     }
-

@@ -1,15 +1,17 @@
 .fs-video { width: 100% }
 
-.media-container { background: darken($dark-bg, 15%); }
-.media-container { color: white; }
-.media-container:first-of-type { padding-bottom: 1em; }
-.media-container:last-of-type { padding-left: 0; padding-right: 0; }
 
 // top left media details
-.media-title { 
-    font-size: 1.5em; 
+.media-title {
+    font-size: 2.5em;
     padding-top: 1em;
-    font-weight: bolder; 
+    font-weight: bolder;
+    width:100%;
+    color:$tomato-orange;
+}
+.media-bg{
+  background-color:$sky-blue;
+  width:100%;
 }
 
 .media-details { font-size: 1.2em; padding: 0.5em 0; }
@@ -19,52 +21,41 @@
 
 .side-nav { background: darken($dark-bg, 9%) }
 
-// left hand pad list -> audio, film television
-.media-type { 
-    list-style-type: none;
-    margin-bottom: 0;
-    color: white;
-    
-    li { 
-        padding: 1rem;
-        cursor: pointer;
-        display: inline-block;
-        width: 33%;
-        text-align: center;
-
-        span:first-of-type {  
-            font-size: 2rem; 
-            color: white;
-        }
-    }
-
-    li:hover span:first-of-type { color: $roku-purple }
+.cat-heading{
+  font-size:3em;
+  margin-left:15%;
+  cursor: pointer;
 }
 
+.media-title{
+  text-align:center;
+  font-size:3em;
+
+}
 // genre filter links
 
 .media-genres {
     list-style-type: none;
-    background: darken($dark-bg, 10%);
+    background: $medium-blue;
     margin: 0;
     padding: 1em 1em 1em 1.5em;
 
-    li { 
+    li {
         display: inline-block;
 
         a {
             font-size: 1rem;
-            color: white;
+            color: $pink;
             text-decoration: none;
         }
-        
+
         a:hover { color: $roku-purple; }
     }
 
     li::after {
-        content: "|";
-        padding: 0 8px 0 13px;
-        color: rgba(255,255,255,0.5);
+        content: "|||||";
+        padding: 0 1em 0 1em;
+        color: $turquoise;
     }
 
     li:last-of-type::after {
@@ -81,8 +72,9 @@
 }
 
 .media-thumb {
-    height: 140px;
-    margin: 0.7em;
+    height: 15%;
+    width:15%;
+    margin: 1em;
 }
 
 .audio-thumb { height: 150px; }

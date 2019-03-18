@@ -3,16 +3,23 @@
 html { position: relative; min-height: 100%; }
 
 body {
-	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-	background-color: black;
+	font: 14px "Arial", sans-serif;
 	color: white;
-	margin-bottom: 100px;
-	background: url(../images/gunmetal.jpg) repeat;
+
+
 }
 
 a {
-	color: #00B7FF;
+	color: $crimson-red;
 	text-decoration: none;
+}
+
+a:hover {
+  color: $green-yellow;
+	text-decoration: none;
+background-color:$tomato-orange;
+border-radius:10px;
+padding:8px;
 }
 
 header {

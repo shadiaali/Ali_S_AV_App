@@ -2,7 +2,7 @@ import UserComponent from './UserComponent.js';
 
 export default {
 	template: `
-	<div class="container profiles">
+	<div class="container-fluid profiles">
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="user-message">{{ message }}</h1>

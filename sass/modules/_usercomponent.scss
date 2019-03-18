@@ -2,13 +2,12 @@
 
 .card {
     cursor: pointer;
-    color: $roku-purple;
-    background: $white;
+    color: $green-yellow;
+    background-color:$roku-purple;
+margin-bottom:1em;
+font-size:2em;
 
-    margin-bottom: 1em;
-
-
-    .card-body p { margin: 10px 0 0; }
+  .card-body p { margin: 10px 0 0; }
 }
 
 .profiles{

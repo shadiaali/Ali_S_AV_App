@@ -1,6 +1,6 @@
 export default {
     template: `
-        <div class="container">
+        <div class="container-fluid">
             <div class="jumbotron roku-jumbotron">
 <h1 style="text-align:center;"><font color="#ff6600">L</font><font color="#bd0048">o</font><font color="#e0f30e">g</font><font color="#04a47a">i</font><font color="#24c2cb">n</font></h1>
                 <form id="loginForm">
