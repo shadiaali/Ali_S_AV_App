@@ -18,14 +18,7 @@ let router = new VueRouter({
 const vm = new Vue({
 
   data: {
-    socItems: [
-
-      {link:"http://www.twitter.com", id: "twitter", class: "fab fa-twitter"},
-      {link:"http://www.facebook.com", id: "facebook", class: "fab fa-facebook-square"},
-      {link:"http://www.instagram.com", id: "instagram", class: "fab fa-instagram"},
-      {link:"https://www.youtube.com/", id: "instagram", class: "fab fa-youtube"},
-
-    ],
+    socItems: [],
     authenticated: false,
     administrator: false,
 
@@ -52,7 +45,7 @@ const vm = new Vue({
     if (localStorage.getItem("cachedUser")) {
       let user = JSON.parse(localStorage.getItem("cachedUser"));
       this.authenticated = true;
-      // params not setting properly, so this route needs to be debugged a bit...
+
       this.$router.push({ name: "home", params: { currentuser: user }});
     } else {
       this.$router.push({ path: "/login"} );
